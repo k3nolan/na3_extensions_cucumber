@@ -3,10 +3,10 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.rubygems_version = '1.3.7'
 
-  s.name = 'na3_extension_cucumbers'
+  s.name = 'na3_extensions_cucumber'
   s.version = '0.1.0'
   s.date = '2011-01-20'
-#  s.rubyforge_project = 'na3_extension_cucumbers'
+#  s.rubyforge_project = 'na3_extensions_cucumber'
 
   s.summary = "Setup for using Cucumber in NA3 extensions."
   s.description = "This is a generator for creating the files necessary to run cucumber for a netAdventist3 extension."
@@ -29,15 +29,15 @@ Gem::Specification.new do |s|
   s.files = %w[
 LICENSE
 README
-na3_extension_cucumbers.gemspec
-rails_generators/na3_extension_cucumbers_generator.rb
-features/factories/extension_factory.rb
-features/factories/site_factory.rb
-features/step_definitions/na3_core_steps.rb
-features/step_definitions/webrat_steps.rb
-features/support/env.rb
-features/support/hooks.rb
-features/support/paths.rb
+na3_extensions_cucumber.gemspec
+rails_generators/na3_extensions_cucumber_generator.rb
+rails_generators/templates/features/factories/extension_factory.rb
+rails_generators/templates/features/factories/site_factory.rb
+rails_generators/templates/features/step_definitions/na3_core_steps.rb
+rails_generators/templates/features/step_definitions/webrat_steps.rb
+rails_generators/templates/features/support/env.rb
+rails_generators/templates/features/support/hooks.rb
+rails_generators/templates/features/support/paths.rb
 ]
   # = MANIFEST =
 
